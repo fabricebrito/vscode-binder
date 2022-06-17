@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdocs serve -a 0.0.0.0:8001 &
+#mkdocs serve -a 0.0.0.0:8001 &
 
-export LOCALTILESERVER_CLIENT_PREFIX="$JUPYTERHUB_SERVICE_PREFIX/proxy/{port}"
+#export LOCALTILESERVER_CLIENT_PREFIX="$JUPYTERHUB_SERVICE_PREFIX/proxy/{port}"
 exec "$@"
